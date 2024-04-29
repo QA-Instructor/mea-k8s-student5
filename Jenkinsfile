@@ -6,7 +6,7 @@ pipeline{
         // e.g. lbg-1 for learner1, lbg-2 for learner2
         projectId= "lbg-mea-leaders-c14"
         
-        imageName = "vatcalc"
+        imageName = "vatcalc5"
         registry = "${dockerUserName}/${imageName}"
         registryCredentials = "dockerhub_id"
         clusterName = "lbg-gke"
